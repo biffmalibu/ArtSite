@@ -13,10 +13,22 @@ p {
     clear: both;
     display: table;
 }
+.navbar {
+    border: 5px solid #ffafff;
+}
+.navbar-nav {
+    margin: auto;
+}
+.nav-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 /* Header Tags */
 header {
-    background: rgb(243,129,252);
-    background: linear-gradient(90deg, rgba(243,129,252,1) 0%, rgba(255,196,240,1) 66%, rgba(255,255,255,1) 100%);
+    background: rgb(250,206,254);
+    background: linear-gradient(90deg, rgba(250,206,254,1) 0%, rgba(252,223,255,1) 50%, rgba(254,238,255,1) 100%);
     padding: 30px 0;
     padding-left: 1em;
 }
