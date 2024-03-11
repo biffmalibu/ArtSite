@@ -15,20 +15,22 @@ p {
 }
 /* Header Tags */
 header {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,104,71,1) 0%, rgba(255,255,255,1) 50%, rgba(206,17,37,1) 100%);
+    background: rgb(243,129,252);
+    background: linear-gradient(90deg, rgba(243,129,252,1) 0%, rgba(255,196,240,1) 66%, rgba(255,255,255,1) 100%);
     padding: 30px 0;
     padding-left: 1em;
 }
 header h2 {
-    font-family: 'Staatliches', cursive;
+    font-family: 'Concert One', cursive;
+    color: rgb(166, 3, 128);
     font-size: 350%;
     display: block;
     margin-top: 15px;
+    text-align: center;
+    /* margin-right: 120px; */
 
 }
 header img {
-    margin-right: 25px;
     margin-top: 15px;
 }
 
