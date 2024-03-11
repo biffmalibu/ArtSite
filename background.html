@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- Load BootStrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- Import Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+	<!-- Import Stylesheets -->
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/background.css">
+
+	<!-- Icon -->
+	<link rel="icon" href="images/headerimage.png">
+	<title>Immigration Background</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery.slicknav.min.js"></script>
+
+	<!-- Link Font -->
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Header -->
+	<header class="clearfix">
+		<a href="index.html"><img id="logoimage"img src="images/headerimage.png" alt=""></a>
+		<h2>Immigration</h2>
+	</header>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="map.html">Map</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="background.html">Background</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="challenges.html">Challenges</a>
+            </li>
+			<li class="nav-item">
+				<a class="nav-link" href="sources.html">Sources</a>
+			</li>
+          </ul>
+        </div>
+      </nav>
+	<nav id="mobilemenu"></nav>
+	<!-- End Navbar -->
+
+		
+
+		<!-- Navlist -->
+		<nav id="navlist">
+			<ul>
+				<li><a href="#1">Gang Violence</a></li>
+				<li><a href="#2">Economic Opportunity</a></li>
+				<li><a href="#3">Economic Instability</a></li>
+				<li><a href="#4">Freedom</a></li>
+			</ul>
+		<!-- End Navlist -->
+        </nav>
+		<!-- Section on right side -->
+		<main>
+			
+		<h1>Push And Pull Factors</h1>
+		<p id="mainp">Mexican immigrants account for about 24% of foreign born US residents, and accounting for 97% of Mexican emigration</p>
+		<!-- Aside on left side -->
+		<section>
+			<!-- Shopping Containers -->
+			<div class="background-container" id="1">
+				<div class="background-item">
+					<a href="https://acleddata.com/2020/12/09/gang-violence-in-mexico-2018-2020/" target="_blank"><img src="images/gangviolence.png" alt=""></a>
+				</div>
+				<div class="background-item">
+					<h1>Gang Violence</h1>
+					<p><br>- A main reason Mexicans emigrate is because of a threat to their safety <br><br><br>
+					- Mexico has dealt with an increase in gang violence resulting in people wanting to flee and seek asylum in the US<br><br><br>
+					- From 2018 to 2020, 11,400 incidents of gang violence were recorded, with 80% involving civilians <br><br><br>
+					- This led to the death of over 13,000 people
+				</p>
+				</div>
+			</div>
+			<div class="background-container" id="2">
+				<div class="background-item">
+					<h1>Economic Opportunity</h1>
+					<p><br>- Availability of jobs and higher pay influences immigration<br><br><br>
+						- Immigrants work difficult but important jobs at high rates, making up a third of some industries <br><br><br>
+						- Remittances are very important to the Mexican economy, ranking the third largest recipient of remittances in 2020
+					</p>
+				</div>
+				<div class="background-item">
+					<a href="https://geopoliticalfutures.com/remittances-to-mexico-rise-as-the-us-economy-struggles/" target="_blank"><img src="images/economy.jpg" alt=""></a>
+				</div>
+			</div>
+			<div class="background-container" id="3">
+				<div class="background-item">
+					<img src="images/mexgraph.webp" alt="">
+				</div>
+				<div class="background-item">
+					<h1>Mexican Economy instability</h1>
+					<p><br> - Mexico experienced a series of economic crises in the 1980s and 1990s, such as the debt crisis of 1982 and the peso devaluation of 1994. <br><br><br>
+					 - These events led to high inflation, unemployment, poverty and social unrest in the country.</p>
+				</div>
+			</div>
+			<div id="4" class="background-container">
+				<div class="background-item">
+					<h1>Freedom</h1>
+					<p><br> - The presence of civil rights backed up by legal frameworks and institutions increased immigration <br><br><br>
+						- The US appeals to those seeking religious freedom with diverse places of worship, as well as providing First Amendment rights for free speech and expression</p>
+				</div>
+				<div class="background-item">
+					<img src="images/freespeech.jpg" alt="">
+				</div>
+			</div>
+			<!-- End Background Containers -->
+
+
+			
+		</section>
+	<!-- Return to top script -->
+  	<div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
+	</main>
+	<script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+	<script>
+        // When the user scrolls down 800px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+     
+         function scrollFunction() {
+           if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+             document.getElementById("cornerBtn").style.display = "block";
+           } else {
+             document.getElementById("cornerBtn").style.display = "none";
+           }
+         }
+     
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+     </script>
+	 <!-- Footer -->
+	 <footer>
+		<img class="footer-img" src="images/flaggif.gif">
+		<p>&copy; <span id="copyright"></span> Bradford Torpey</p>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
