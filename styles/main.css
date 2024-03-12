@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    background-color: rgb(240, 86, 176);
+    /* f583c5 */
+}
+body {
+    background-color: rgb(245, 131, 197);
+}
 p {
     font-size: 20px;
 }
@@ -13,9 +20,7 @@ p {
     clear: both;
     display: table;
 }
-.navbar {
-    border: 5px solid #ffafff;
-}
+
 .navbar-nav {
     margin: auto;
 }
@@ -27,8 +32,8 @@ p {
 
 /* Header Tags */
 header {
-    background: rgb(250,206,254);
-    background: linear-gradient(90deg, rgba(250,206,254,1) 0%, rgba(252,223,255,1) 50%, rgba(254,238,255,1) 100%);
+    background: rgb(255,175,255);
+    background: linear-gradient(90deg, rgba(255,175,255,1) 0%, rgba(252,223,255,1) 50%, rgba(250,206,254,1) 100%);
     padding: 30px 0;
     padding-left: 1em;
 }
@@ -47,14 +52,14 @@ header img {
 }
 
 /* Html */
-html {
+/* html {
     background-image: url(../images/background.avif);
 }
 
 /* Body */
 body {
     background-color: rgb(255, 255, 255, 0.75);
-}
+} */
 
 /* List formatting */
 ul li {
