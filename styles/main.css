@@ -48,12 +48,12 @@ header img {
 
 /* Html */
 html {
-    background-image: url(../images/background.webp);
+    background-image: url(../images/background.avif);
 }
 
 /* Body */
 body {
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgb(255, 255, 255, 0.75);
 }
 
 /* List formatting */
@@ -69,41 +69,6 @@ ul li {
     float: left;
 }
 
-/* Navlist Elements */
-#navlist {
-    width: 15%;
-    float: left;
-    margin: 3em 0 0 3em;
-    position: sticky;
-    top: 120px;
-}
-#navlist ul {
-    list-style: none;
-}
-#navlist ul li {
-    background-color: navy;
-    margin-bottom: 7px;
-    border: 3px ridge silver;
-    border-radius: 15px;
-    margin-left: 0;
-    margin-right: .5em;
-    transition: all .5s;
-}
-#navlist ul li a:hover {
-    color: navy;
-}
-#navlist ul li:hover {
-    background-color: white;
-    margin-left: .5em;
-    margin-right: 0;
-}
-#navlist ul li a {
-    display: block;
-    text-decoration: none;
-    padding: 5px 1em;
-    color: white;
-    transition: all .5s;
-}
 
 /* Go to top button */
 #cornerBtn {
