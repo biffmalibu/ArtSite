@@ -12,10 +12,6 @@ main h1 {
     color: black;
     text-align: center;
 }
-.format {
-    margin-right: 10px;
-    margin-left: 10px;
-}
 /* Image container tags */
 .img-container {
     padding: 5vh 0;
@@ -23,17 +19,26 @@ main h1 {
     margin-left: 10px;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 .item {
-    flex-basis: 30%;
+    flex-basis: calc(50% - 20px); /* Adjust the value as needed */
+    margin-bottom: 20px; /* Add some margin between items */
     font-family: 'Staatliches', cursive;
+    margin-right: -40px;
+    margin-left: -40px;
     color: black;
 }
+
 .img {
     border: 3px solid pink;
     border-radius: 5px;
+    max-width: 50%;
+    height: auto; /* Maintain aspect ratio */
 }
+
 .item h2 {
     padding-top: 15px;
 }
