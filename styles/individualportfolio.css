@@ -1,0 +1,96 @@
+/* Text Formatting */
+p {
+    color: lightgray;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    
+}
+main h1 {
+    margin-top: 1em;
+    font-size: 300%;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    text-align: center;
+}
+/* Image container tags */
+.container {
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    flex-basis: 40%;  
+    margin-right: 30px; 
+    margin-left: 30px;
+}
+.item p {
+    font-family: 'Concert One', cursive;
+    text-align: start;
+    color: black;
+}
+.item h1 {
+    font-family: 'Concert One', cursive;
+    color: pink;
+}
+.itemimg {
+    max-width: 500px;
+    height: auto;
+    border: 3px solid pink;
+    border-radius: 5px;
+
+}
+
+.back {
+    text-align: start;
+}
+p.back {
+    font-family: 'Concert One', cursive;
+    color: palevioletred;
+
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+    h2 {
+        padding-top: 30px;
+    }
+    p {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    header {
+        text-align: center;
+    }
+    #logoimage {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    #navlist {
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .itemimg, .item{
+        max-width: 375px;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+    .itemimg, .item{
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .itemimg, .item{
+        max-width: 275px;
+    }
+}
