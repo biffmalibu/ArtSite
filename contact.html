@@ -27,6 +27,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -47,7 +48,7 @@
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="portfolio.html">Portfolio</a>
 				<ul class="dropdown-menu">
-				<li><a href="" class="dropdown-item">Illustrations</a></li>
+				<li><a href="illustrations.html" class="dropdown-item">Illustrations</a></li>
 				<li><a href="watercolors.html" class="dropdown-item">Watercolors</a></li>
 				</ul>
 			</li>
@@ -65,98 +66,20 @@
 
 	<main>
 		
-		<h1>Challenges</h1>
-		
-
-		<!-- Single Image Container -->
 		<div class="container">
 			<div class="item">
-				<h1>Slow, Inefficient Systems</h1>
-				<p><br>- Asylum applications and other immigration processes often face extensive delays, leading to prolonged waiting periods for individuals seeking refuge <br><br><br>
-					- A backlog of pending cases has developed, causing significant delays in resolving individual cases<br><br><br>
-					- The extensive paperwork and documentation needed for asylum and immigration applications can be overwhelming <br><br><br>
-				</p>
+				<img class="itemimg" src="images/contact.jpg" alt="">
 			</div>
 			<div class="item">
-				<a href="https://trac.syr.edu/reports/705/" target="_blank"><img src="images/asylum.webp" alt=""></a>
+				<p>Email:</p>
+				<p>artistry.mars@gmail.com</p>
+				<p>---</p>
+				<p>Instagram:</p>
+				<p>@artistry.mars</p>
+
 			</div>
 		</div>
-		<!-- End Single Image Containers -->
-
-		<!-- Container for slideshow -->
-		<div class="entertainment-container">
-			<div class="entertainment-item">
-				<div class="slideshow-container">
-					<!-- Full-width images with number and caption text -->
-					<div class="mySlides fadeout">
-					  <img src="images/1.webp">
-					  <div class="text"></div>
-					</div>
-				  
-					<div class="mySlides fadeout">
-					  <img src="images/2.avif">
-					  <div class="text"></div>
-					</div>
-				  
-					<div class="mySlides fadeout">
-					  <img src="images/3.webp">
-					  <div class="text"></div>
-					</div>
-					
-					<div class="mySlides fadeout">
-						<img src="images/4.jfif">
-						<div class="text"></div>
-					</div>
-		
-					<div class="mySlides fadeout">
-						<img src="images/5.jfif">
-						<div class="text"></div>
-					</div>
-					<div class="mySlides fadeout">
-						<img src="images/6.webp">
-						<div class="text"></div>
-					</div>
-					<div class="mySlides fadeout">
-						<img src="images/7.avif">
-						<div class="text"></div>
-					</div>
-					<div class="mySlides fadeout">
-						<img src="images/8.jpg">
-						<div class="text"></div>
-					</div>
-					<div class="mySlides fadeout">
-						<img src="images/9.jpg">
-						<div class="text"></div>
-					</div>
-					<div class="mySlides fadeout">
-						<img src="images/10.jpg">
-						<div class="text"></div>
-					</div>
-					<div class="mySlides fadeout">
-						<img src="images/11.jpg">
-						<div class="text"></div>
-					</div>
-					<div class="mySlides fadeout">
-						<img src="images/12.jpg">
-						<div class="text"></div>
-					</div>
-					<!-- Next and previous buttons -->
-					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-					<a class="next" onclick="plusSlides(1)">&#10095;</a>
-				  </div>
-				  <br>
-				</div>
-				</a>
-				<div class="entertainment-item">
-					<h1>Challenges At The Border</h1>
-					<p><br> - Children are often separated from their guardians. When parents are not permitted over the border, some will send their children alone as unaccompanied minors. In 2021, 122,000 children were taken into US custody without parents <br><br><br>
-						- Some children were also separated from families unwillingly as a deterrent. When these children are taken they are kept in captivity at border facilities where they have lack of food, lack of care, poor sleeping conditions,  and crowded rooms<br><br><br>
-						- Another large issue at the border is the brutality and misuse of power from border patrol police. There are numerous instances of migrants being injured or killed, and thousands of reports of abuse and sexual assault by border patrol. 
-
-				</div>
-			</div>
-		</div>
-		<!-- End Container for slideshow -->
+	
 		
   	<div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
 	</main>
@@ -185,23 +108,6 @@
            document.documentElement.scrollTop = 0;
          }
      </script>
-	 <!-- Slide show script -->
-	 <script>
-        let slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
-        slides[slideIndex-1].style.display = "block";
-        setTimeout(showSlides, 3500); // Change image every 2 seconds
-}
-    </script>
 	
 	<!-- Footer -->
 	<footer>

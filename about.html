@@ -27,6 +27,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -47,7 +48,7 @@
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="portfolio.html">Portfolio</a>
 				<ul class="dropdown-menu">
-				<li><a href="" class="dropdown-item">Illustrations</a></li>
+				<li><a href="illustrations.html" class="dropdown-item">Illustrations</a></li>
 				<li><a href="watercolors.html" class="dropdown-item">Watercolors</a></li>
 				</ul>
 			</li>
@@ -64,75 +65,37 @@
 	<!-- End Navbar -->
 
 		
-
-		<!-- Navlist -->
-		<nav id="navlist">
-			<ul>
-				<li><a href="#1">Gang Violence</a></li>
-				<li><a href="#2">Economic Opportunity</a></li>
-				<li><a href="#3">Economic Instability</a></li>
-				<li><a href="#4">Freedom</a></li>
-			</ul>
-		<!-- End Navlist -->
-        </nav>
 		<!-- Section on right side -->
 		<main>
-			
-		<h1>Push And Pull Factors</h1>
-		<p id="mainp">Mexican immigrants account for about 24% of foreign born US residents, and accounting for 97% of Mexican emigration</p>
-		<!-- Aside on left side -->
-		<section>
-			<!-- Shopping Containers -->
-			<div class="background-container" id="1">
-				<div class="background-item">
-					<a href="https://acleddata.com/2020/12/09/gang-violence-in-mexico-2018-2020/" target="_blank"><img src="images/gangviolence.png" alt=""></a>
-				</div>
-				<div class="background-item">
-					<h1>Gang Violence</h1>
-					<p><br>- A main reason Mexicans emigrate is because of a threat to their safety <br><br><br>
-					- Mexico has dealt with an increase in gang violence resulting in people wanting to flee and seek asylum in the US<br><br><br>
-					- From 2018 to 2020, 11,400 incidents of gang violence were recorded, with 80% involving civilians <br><br><br>
-					- This led to the death of over 13,000 people
-				</p>
-				</div>
+		<div class="container">
+			<div>
+				<img class="main-img" src="images/about.jpg" alt="">
 			</div>
-			<div class="background-container" id="2">
-				<div class="background-item">
-					<h1>Economic Opportunity</h1>
-					<p><br>- Availability of jobs and higher pay influences immigration<br><br><br>
-						- Immigrants work difficult but important jobs at high rates, making up a third of some industries <br><br><br>
-						- Remittances are very important to the Mexican economy, ranking the third largest recipient of remittances in 2020
-					</p>
-				</div>
-				<div class="background-item">
-					<a href="https://geopoliticalfutures.com/remittances-to-mexico-rise-as-the-us-economy-struggles/" target="_blank"><img src="images/economy.jpg" alt=""></a>
-				</div>
+			<div>
+				<p>Raised in Douglas, MA, Mars is a practicing interdisciplinary artist working in watercolor and illustration. 
+					Mars incorporates elements of her imagination through vibrant color palettes, fantastical scenes, and intricacy. 
+					Her work centers around themes of animals, landscapes, and fictional characters within magical worlds. 
+					She incorporates bright colors and free-forms to create fantastic characters and spaces. 
+					Doing this allows her imagination to be integrated into each piece. 
+					Mars' projects depict and explore spontaneity and fantasy through intricacy, color, and pattern. 
+					Even though her projects span a variety of media, her interest in flora and fauna narratives remains consistent. 
+					Each work begins as a representational rendering of a place or animal. 
+					The process of painting connects her to the subject matter, making her feel closer to wildlife. 
+					Painting animals in their beauty provides a needed change of perspective from the pain creatures face in this life. 
+					It is special to Mars to bring fictional stories from her imagination into the world so she never forgets them and in turn makes them real. 
+					Her current work is a series of watercolors that depict different animals that are hidden within foods with natural, floral backgrounds. 
+					Representing how their mistreatment is glorified in the real world as well as current issues with food transparency.
+					Her other current work as an illustrator, takes a step away from reality and tells a specific story about a character's life, often within a house. 
+					All of her work, no matter the media, depicts the beauty and importance of our world's flora and fauna as well as her personal connection to it. 
+					Mars currently lives in Beverly, MA, where she maintains an active studio practice and is pursuing a Bachelor of Fine Arts in Studio Art at Endicott College.</p>
 			</div>
-			<div class="background-container" id="3">
-				<div class="background-item">
-					<img src="images/mexgraph.webp" alt="">
-				</div>
-				<div class="background-item">
-					<h1>Mexican Economy instability</h1>
-					<p><br> - Mexico experienced a series of economic crises in the 1980s and 1990s, such as the debt crisis of 1982 and the peso devaluation of 1994. <br><br><br>
-					 - These events led to high inflation, unemployment, poverty and social unrest in the country.</p>
-				</div>
-			</div>
-			<div id="4" class="background-container">
-				<div class="background-item">
-					<h1>Freedom</h1>
-					<p><br> - The presence of civil rights backed up by legal frameworks and institutions increased immigration <br><br><br>
-						- The US appeals to those seeking religious freedom with diverse places of worship, as well as providing First Amendment rights for free speech and expression</p>
-				</div>
-				<div class="background-item">
-					<img src="images/freespeech.jpg" alt="">
-				</div>
-			</div>
-			<!-- End Background Containers -->
-
-
-			
-		</section>
+		</div>
+		<div class="flex-container">
+			<img class="resume-img" src="images/resume2.jpg" alt="">
+			<img class="resume-img" src="images/resume3.jpg" alt="">
+		</div>
+		
+			<!-- Aside on left side -->
 	<!-- Return to top script -->
   	<div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
 	</main>
@@ -160,6 +123,22 @@
            document.documentElement.scrollTop = 0;
          }
      </script>
+	<script>
+		window.addEventListener('resize', function() {
+			var containerHeight = document.querySelector('.container').offsetHeight;
+			var flexContainerHeight = document.querySelector('.flex-container').offsetHeight;
+			var mainHeight = containerHeight + flexContainerHeight + 100;
+			document.querySelector('main').style.height = mainHeight + 'px';
+		});
+
+		// Run the script initially
+		window.onload = function() {
+			var containerHeight = document.querySelector('.container').offsetHeight;
+			var flexContainerHeight = document.querySelector('.flex-container').offsetHeight;
+			var mainHeight = containerHeight + flexContainerHeight + 100;
+			document.querySelector('main').style.height = mainHeight + 'px';
+		};
+	</script>
 	 <!-- Footer -->
 	 <footer>
 		<div>

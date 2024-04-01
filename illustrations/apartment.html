@@ -18,7 +18,7 @@
 
 	<!-- Icon -->
 	<link rel="icon" href="../images/headerimage.jpg">
-	<title>Lambs</title>
+	<title>Apartment</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="js/jquery.slicknav.min.js"></script>
@@ -35,7 +35,7 @@
 	<!-- Header -->
 	<header class="clearfix">
 		<!-- <a href="index.html"><img id="logoimage"img src="images/headerimage.jpg" alt=""></a> -->
-		<h2>Watercolors</h2>
+		<h2>Illustrations</h2>
 	</header>
 	
 	<!-- Navbar -->
@@ -71,24 +71,16 @@
 		
 		<!-- Generate an image container that will contain each photo in a 2 column grid, with each grid having equal sizes, similar to how a shop would look -->
 		
-		<!-- Image Container -->
-		<!-- <div class="img-container">
-			<div class="item">
-				<img class="img" src="../images/Watercolor_IMG1_Cheese.jpg">
-				<h2>Cheese</h2>
-				<p>2024 - H x W</p>
-			</div>
-		</div> -->
-			<a href="../watercolors.html"><p class="back">Back</p></a>
+			<a href="../illustrations.html"><p class="back">Back</p></a>
 
 		<div class="container">
 			<div class="item">
-				<img class="itemimg" src="../images/Watercolor_IMG5_Lambs.jpg" alt="">
+				<img class="itemimg" src="../images/Illustrations_IMG3_Apartment.jpg" alt="">
 			</div>
 			<div class="item">
-				<h1>Lambs</h1>
-				<p>Watercolor on YUPO</p>
-				<p>H 10 in  x W 24.5 in</p>
+				<h1>Apartment</h1>
+				<p>Digital</p>
+				<p>Dimensions Variable</p>
 				<p>2024</p>
 			</div>
 		</div>
@@ -108,6 +100,14 @@
 			var imgRect = itemImg.getBoundingClientRect();
 			var imgLeft = imgRect.left;
 			backLink.style.marginLeft = imgLeft + 'px';
+		});
+	</script>
+	<script>
+		window.addEventListener('DOMContentLoaded', function() {
+			var container = document.querySelector('.container');
+			var main = document.querySelector('main');
+			var containerHeight = container.offsetHeight;
+			main.style.height = containerHeight + 200 + 'px';
 		});
 	</script>
 
@@ -138,14 +138,6 @@
            document.documentElement.scrollTop = 0;
          }
      </script>
-	 <script>
-		window.addEventListener('DOMContentLoaded', function() {
-			var container = document.querySelector('.container');
-			var main = document.querySelector('main');
-			var containerHeight = container.offsetHeight;
-			main.style.height = containerHeight + 200 + 'px';
-		});
-	</script>
 	 <!-- Footer -->
 	 <footer>
 		<div>

@@ -18,7 +18,7 @@
 
 	<!-- Icon -->
 	<link rel="icon" href="../images/headerimage.jpg">
-	<title>Watercolors</title>
+	<title>Gummy Bear</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="js/jquery.slicknav.min.js"></script>
@@ -27,6 +27,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Staatliches&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Madimi+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
@@ -51,7 +52,7 @@
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../portfolio.html">Portfolio</a>
 				<ul class="dropdown-menu">
-				<li><a href="" class="dropdown-item">Illustrations</a></li>
+				<li><a href="illustrations.html" class="dropdown-item">Illustrations</a></li>
 				<li><a href="../watercolors.html" class="dropdown-item disabled">Watercolors</a></li>
 				</ul>
 			</li>
@@ -85,8 +86,10 @@
 				<img class="itemimg" src="../images/Watercolor_IMG3_GummyBear.jpg" alt="">
 			</div>
 			<div class="item">
-				<h1>Gummy Bear - H x W</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut justo consectetur elit iaculis accumsan. Praesent non sem odio. Nunc tincidunt rutrum dui, eget aliquam massa condimentum ut. Morbi ut ullamcorper quam. Fusce lacinia condimentum ex vel efficitur. Vestibulum pharetra commodo velit, eu scelerisque arcu luctus id. Aliquam consequat ligula ac nisl sollicitudin porta. Aliquam sollicitudin neque vel ultrices efficitur. Vivamus pretium mollis sapien in viverra. Maecenas feugiat metus elit, et tempus diam euismod ac. Aenean a fermentum tellus.</p>
+				<h1>Gummy Bear</h1>
+				<p>Watercolor on YUPO</p>
+				<p>H 17 in  x W 11.3 in</p>
+				<p>2024</p>
 			</div>
 		</div>
 		<!-- End Image Container -->
@@ -105,6 +108,15 @@
 			var imgRect = itemImg.getBoundingClientRect();
 			var imgLeft = imgRect.left;
 			backLink.style.marginLeft = imgLeft + 'px';
+		});
+	</script>
+	
+	<script>
+		window.addEventListener('DOMContentLoaded', function() {
+			var container = document.querySelector('.container');
+			var main = document.querySelector('main');
+			var containerHeight = container.offsetHeight;
+			main.style.height = containerHeight + 200 + 'px';
 		});
 	</script>
 

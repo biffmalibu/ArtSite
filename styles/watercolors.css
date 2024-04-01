@@ -1,14 +1,14 @@
 /* Text Formatting */
 p {
     color: lightgray;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Quicksand', cursive;
     text-align: center;
     
 }
 main h1 {
     margin-top: 1em;
     font-size: 300%;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Quicksand', cursive;
     color: black;
     text-align: center;
 }
@@ -26,7 +26,7 @@ main h1 {
 .item {
     flex-basis: calc(50% - 20px); /* Adjust the value as needed */
     margin-bottom: 20px; /* Add some margin between items */
-    font-family: 'Staatliches', cursive;
+    font-family: 'Quicksand', cursive;
     margin-right: -40px;
     margin-left: -40px;
     color: black;

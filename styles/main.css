@@ -41,7 +41,7 @@ header {
     padding-left: 1em;
 }
 header h2 {
-    font-family: 'Concert One', cursive;
+    font-family: 'Quicksand', cursive;
     color: rgb(166, 3, 128);
     font-size: 350%;
     display: block;
@@ -66,7 +66,7 @@ body {
 
 /* List formatting */
 ul li {
-    font-family: 'Staatliches', cursive;
+    font-family: 'Quicksand', cursive;
     color: white;
 }
 
@@ -101,7 +101,7 @@ ul li {
 .caption {
     margin: 30px 6em;
     color: white;
-    font-family: 'Righteous', cursive;
+    font-family: 'Quicksand', cursive;
 }
  #cornerBtn:hover {
     background-color: rgba(0,0,0,1);
@@ -122,7 +122,7 @@ footer {
 }
 
 footer p {
-    font-family: 'Madimi One', cursive;
+    font-family: 'Quicksand', cursive;
     margin-bottom: 1px;
     color: black;
 }
