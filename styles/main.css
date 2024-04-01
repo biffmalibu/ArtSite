@@ -51,6 +51,15 @@ header h2 {
     /* margin-right: 120px; */
 
 }
+header h3{
+    font-family: 'Quicksand', cursive;
+    color: rgb(166, 3, 128);
+    font-size: 150%;
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
 header img {
     margin-top: 15px;
 }
