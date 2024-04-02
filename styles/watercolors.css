@@ -34,8 +34,8 @@ main h1 {
 }
 
 .img {
-    max-width: 50%;
-    height: auto; /* Maintain aspect ratio */
+    max-height: 80%;
+    width: 80%; /* Scale the width to maintain aspect ratio */
 }
 
 .item h2 {
