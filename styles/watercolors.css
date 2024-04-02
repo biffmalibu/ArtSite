@@ -25,12 +25,16 @@ main h1 {
 
 .item {
     flex-basis: calc(50% - 20px); /* Adjust the value as needed */
-    margin-bottom: 20px; /* Add some margin between items */
     font-family: 'Quicksand', cursive;
     margin-right: -40px;
     margin-left: -40px;
     color: black;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+}
+.larger-img {
+    max-height: 100%;
+    width: 100%; /* Scale the width to maintain aspect ratio */
+
 }
 
 .img {
