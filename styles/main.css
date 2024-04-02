@@ -36,7 +36,7 @@ a {
 /* Header Tags */
 header {
     background: rgb(255,175,255);
-    background: linear-gradient(90deg, rgba(255,175,255,1) 0%, rgba(252,223,255,1) 50%, rgba(250,206,254,1) 100%);
+    background: linear-gradient(90deg, rgba(255,101,200,1) 0%, rgba(255,235,0,1) 100%);
     padding: 30px 0;
     padding-left: 1em;
 }
@@ -48,6 +48,7 @@ header h2 {
     margin-top: 15px;
     text-align: center;
     font-weight: bold;
+    font-weight: 700;
     /* margin-right: 120px; */
 
 }
