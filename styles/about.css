@@ -13,13 +13,14 @@ main h1 {
     margin: 20px;
 }
 .container {
-    margin: 10px;
+    margin: 10px auto; /* center the container horizontally */
 }
 p {
     color: black;
     font-family: 'Quicksand', cursive; 
     text-align: start;
     font-size: 25px;
+    
 }
 footer p {
     text-align: center;
