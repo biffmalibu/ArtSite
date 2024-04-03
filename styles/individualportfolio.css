@@ -15,6 +15,7 @@ main h1 {
     font-family: 'Quicksand', cursive;
     color: black;
     text-align: center;
+    font-weight: 300;
 }
 /* Image container tags */
 .container {
