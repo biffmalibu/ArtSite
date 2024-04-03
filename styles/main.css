@@ -143,6 +143,8 @@ footer p {
     font-family: 'Quicksand', cursive;
     margin-bottom: 1px;
     color: black;
+    font-size: 20px;
+    font-weight: 300;
 }
 /* Footer container elements */
 .footer-container {

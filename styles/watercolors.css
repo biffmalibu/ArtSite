@@ -36,6 +36,10 @@ main h1 {
     width: 100%; /* Scale the width to maintain aspect ratio */
 
 }
+.ill-design {
+    border: 3px solid pink;
+    border-radius: 10px;
+}
 
 .img {
     max-height: 80%;
