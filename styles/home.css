@@ -87,16 +87,41 @@ main h1 {
 }
 @media only screen and (max-width: 450px) {
     .img {
+        max-width: 325px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .img {
         max-width: 300px;
     }
 }
 @media only screen and (max-width: 400px) {
+    .img {
+        max-width: 265px;
+    }
+}
+@media only screen and (max-width: 375px) {
     .img {
         max-width: 250px;
     }
 }
 @media only screen and (max-width: 350px) {
     .img {
+        max-width: 225px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .img {
         max-width: 200px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .img {
+        max-width: 180px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .img {
+        max-width: 150px;
     }
 }
