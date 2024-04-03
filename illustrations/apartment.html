@@ -109,6 +109,12 @@
 			var containerHeight = container.offsetHeight;
 			main.style.height = containerHeight + 200 + 'px';
 		});
+		window.addEventListener('resize', function() {
+			var container = document.querySelector('.container');
+			var main = document.querySelector('main');
+			var containerHeight = container.offsetHeight;
+			main.style.height = containerHeight + 200 + 'px';
+		});
 	</script>
 
 	<!-- Return to top script -->
