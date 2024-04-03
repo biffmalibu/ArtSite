@@ -41,6 +41,7 @@ main h1 {
     max-height: 80%;
     width: 80%; /* Scale the width to maintain aspect ratio */
     transition: 0.3s;
+    border-radius: 10px;
 }
 
 .item h2 {

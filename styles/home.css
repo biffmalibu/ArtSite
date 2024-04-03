@@ -39,6 +39,7 @@ main h1 {
     max-width: 450px;
     margin-right: 50px;
     margin-left: 50px;
+    transition: 0.3s;
 }
 
 .item h2 {

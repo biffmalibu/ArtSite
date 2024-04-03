@@ -84,10 +84,6 @@
 				<p>2024</p>
 			</div>
 		</div>
-		<div id="image-viewer">
-			<span class="close">&times;</span>
-			<img class="modal-content" id="full-image">
-		  </div>
 		<!-- End Image Container -->
 	<script>
 		window.addEventListener('DOMContentLoaded', function() {
@@ -107,18 +103,6 @@
 		});
 	</script>
 	<script src="/scripts/resizeindivport.js"></script>
-	<script>
-        $(document).ready(function(){
-            $(".images img").click(function(){
-                $("#full-image").attr("src", $(this).attr("src"));
-                $('#image-viewer').show();
-            });
-
-            $("#image-viewer .close").click(function(){
-                $('#image-viewer').hide();
-            });
-        });
-    </script>
 
 	<!-- Return to top script -->
   	<div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
