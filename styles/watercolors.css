@@ -65,6 +65,11 @@ img:hover {opacity: 0.7;}
     p, .item {
         padding-bottom: 30px;
     }
+    .larger-img {
+        max-height: 90%;
+        width: 90%; /* Scale the width to maintain aspect ratio */
+    
+    }
 }
 @media only screen and (max-width: 800px) {
     header {
@@ -79,6 +84,12 @@ img:hover {opacity: 0.7;}
         display: none;
     }
     
+}
+@media only screen and (max-width: 500px) {
+    .larger-img {
+        max-height: 80%;
+        width: 80%; /* Scale the width to maintain aspect ratio */
+    }
 }
 @media only screen and (max-width: 450px) {
     .img-container {
