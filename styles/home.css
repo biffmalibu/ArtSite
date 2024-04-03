@@ -80,6 +80,16 @@ main h1 {
     }
     
 }
+@media only screen and (max-width: 500px) {
+    .img {
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .img {
+        max-width: 200px;
+    }
+}
 @media only screen and (max-width: 450px) {
     .img-container {
         max-width: 375px;
