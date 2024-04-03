@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', function() {
     var viewerHeight = window.innerHeight;
     var difference = viewerHeight - containerHeight;
     console.log(difference);
-    main.style.height = containerHeight  +difference/2+ 'px';
+    main.style.height = containerHeight  + difference/2 - 100 + 'px';
 });
 window.addEventListener('resize', function() {
     var container = document.querySelector('.container');
@@ -13,5 +13,6 @@ window.addEventListener('resize', function() {
     var containerHeight = container.offsetHeight;
     var viewerHeight = window.innerHeight;
     var difference = viewerHeight - containerHeight;
-    main.style.height = containerHeight  +difference/2+ 'px';
+    console.log(difference);
+    main.style.height = containerHeight  + difference/2 - 100 + 'px';
 });
