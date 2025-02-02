@@ -96,8 +96,8 @@
 			</div>
 		</div>
 		<div class="flex-container">
-			<img class="resume-img" src="images/resume2.jpg" alt="">
-			<img class="resume-img" src="images/resume3.jpg" alt="">
+			<img class="resume-img" src="images/resume.png" alt="">
+			
 		</div>
 		
 			<!-- Aside on left side -->
@@ -126,11 +126,22 @@
 
 	<script>
 		window.addEventListener('resize', function() {
-			var containerHeight = document.querySelector('.container').offsetHeight;
-			var flexContainerHeight = document.querySelector('.flex-container').offsetHeight;
-			var mainHeight = containerHeight + flexContainerHeight + 100;
-			document.querySelector('main').style.height = mainHeight + 'px';
-		});
+		var containerHeight = document.querySelector('.container').offsetHeight;
+		var flexContainerHeight = document.querySelector('.flex-container').offsetHeight;
+		var mainHeight = containerHeight + flexContainerHeight + 100;
+		document.querySelector('main').style.height = mainHeight + 'px';
+
+		// Ensure footer is at the bottom
+		var footer = document.querySelector('footer');
+		var footerRect = footer.getBoundingClientRect();
+		var windowHeight = window.innerHeight;
+
+		if (footerRect.bottom < windowHeight) {
+			footer.style.position = 'absolute';
+			footer.style.bottom = '0';
+			footer.style.width = '100%';
+		}
+	});
 
 		// Run the script initially
 		window.onload = function() {
