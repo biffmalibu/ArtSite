@@ -42,36 +42,42 @@ a {
 
 /* Header Tags */
 header {
-    background: rgb(255,175,255);
-    background: linear-gradient(90deg, rgba(255,101,200,1) 0%, rgba(255,235,0,1) 100%);
-    padding: 30px 0;
-    padding-left: 1em;
+    background: url(../images/headerimg.jpg) no-repeat center center;
+    /* add headerimg.png to header */
+
+    background-size: cover;
+    padding-top: 15px;
+    padding-left: 0.5em;
+    position: relative;
+}
+.extendheader {
+    padding-top: 22.5px;
+    padding-bottom: 22.5px;
 }
 header h2 {
-    font-family: 'Quicksand', cursive;
-    color: rgb(166, 3, 128);
+    font-family: 'Triodion', cursive;
+    color: black;
     font-size: 350%;
     display: block;
-    margin-top: 15px;
     text-align: center;
     font-weight: bold;
     font-weight: 700;
-    /* margin-right: 120px; */
-
+    position: relative;
+    z-index: 1;
 }
-header h3{
-    font-family: 'Quicksand', cursive;
-    color: #c06aff;
+header h3 {
+    font-family: 'Triodion', cursive;
+    color: black;
     font-size: 150%;
     display: block;
-    margin-top: 15px;
     text-align: center;
     font-weight: bold;
 }
 header img {
-    margin-top: 15px;
+    margin-top: 10px;
 }
-
+html, body {padding:0; margin:0; height:100%;}
+footer{ bottom: 0; left: 0; right: 0;}
 /* Html */
 /* html {
     background-image: url(../images/background.avif);
