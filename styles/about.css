@@ -8,74 +8,132 @@ main h1 {
 }
 
 .main-img {
-    max-width: 400px;
-    float: left;
-    margin: 20px;
+    max-width: 400px; /* Adjusted size for the main image */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     transition: 0.3s;
 }
+
 .container {
-    margin: 10px auto; /* center the container horizontally */
+    margin: 10px auto; /* Center the container horizontally */
 }
+
 p {
     color: black;
     font-family: 'Quicksand', cursive; 
-    text-align: start;
-    font-size: 25px;
-    
+    text-align: justify;
+    font-size: 20px; /* Adjusted font size for better readability */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Add spacing below the text */
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
 footer p {
+    margin: 0;
     text-align: center;
 }
-.resume-img {
-    max-width: 800px;
-    transition: 0.3s;
-}
-/* create a flex container for two images that will be stacked on eachother */
+
+/* Flex container for text and image */
 .flex-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
 }
 
+.image-text {
+    flex: 60%; /* Wider column for text */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the button with the text */
+}
 
+.image-container {
+    flex: 40%; /* Slimmer column for the image */
+    text-align: center;
+}
 
+/* Button styling */
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Quicksand', cursive;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
 
-
-/* Background container tags */
-
-
+.cv-button:hover {
+    background-color: #0056b3;
+}
 
 /* Media queries */
 @media only screen and (max-width: 1000px) {
     .flex-container {
         flex-direction: column;
+        align-items: center;
     }
     .main-img {
-        max-width: 300px;
+        max-width: 300px; /* Adjusted size for medium screens */
     }
-    .resume-img {
-        max-width: 600px;
+    .cv-button {
+        font-size: 14px;
+        padding: 8px 16px;
     }
-
 }
+
 @media only screen and (max-width: 768px) {
     .main-img {
-        float: none;
+        max-width: 250px; /* Further reduce size for smaller screens */
+    }
+    .cv-button {
+        font-size: 12px;
+        padding: 6px 12px;
     }
 }
+
 @media only screen and (max-width: 520px) {
-    .resume-img {
-        max-width: 400px;
+    .main-img {
+        max-width: 200px; /* Smaller size for very small screens */
+    }
+    .cv-button {
+        font-size: 10px;
+        padding: 5px 10px;
     }
 }
+
 @media only screen and (max-width: 420px) {
-    .resume-img {
-        max-width: 300px;
+    .main-img {
+        max-width: 150px; /* Further reduce size for extra small screens */
+    }
+    .cv-button {
+        font-size: 9px;
+        padding: 4px 8px;
     }
 }
+
 @media only screen and (max-width: 320px) {
-    .resume-img {
-        max-width: 200px;
+    .main-img {
+        max-width: 120px; /* Final adjustment for the smallest screens */
+    }
+    .cv-button {
+        font-size: 8px;
+        padding: 3px 6px;
     }
 }

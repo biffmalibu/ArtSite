@@ -42,9 +42,10 @@ a {
 
 /* Header Tags */
 header {
-    background: url(../images/headerimg.jpg) no-repeat center center;
+    /* background: url(../images/headerimg.jpg) no-repeat center center; */
     /* add headerimg.png to header */
-
+    background: #eeaee4;
+    background: linear-gradient(nulldeg, rgba(238, 174, 228, 1) 16%, rgba(240, 186, 255, 1) 100%);
     background-size: cover;
     padding-top: 15px;
     padding-left: 0.5em;

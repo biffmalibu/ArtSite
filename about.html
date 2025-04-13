@@ -51,6 +51,7 @@
 				<ul class="dropdown-menu">
 				<li><a href="illustrations" class="dropdown-item">Illustrations</a></li>
 				<li><a href="watercolors" class="dropdown-item">Watercolors</a></li>
+				<li><a href="childrensbooks"class="dropdown-item">Children's Books</a></li>
 				</ul>
 			</li>
             <li class="nav-item">
@@ -68,61 +69,24 @@
 		
 		<!-- Section on right side -->
 		<main>
-		<div class="container">
-			<div>
-				<img class="main-img" src="images/about.jpg" alt="">
+			<div class="container">
+				<div class="flex-container">
+					<div class="image-text">
+						<p>Mars is a digital illustrator and author, she explores her connection to imagination through vibrant color palettes, fantastical scenes, and fictional characters. 
+						Her illustrations convey intricate and creative stories. Similarly, her children’s books focus on engaging imagination through unique and magical characters, settings, and plots.
+						Her work contains themes of nature, diversity, and friendship, offering meaningful lessons through visual storytelling.</p>
+						<button class="cv-button" onclick="window.location.href='files/cv.pdf'">Download CV</button>
+					</div>
+					<div class="image-container">
+						<img class="main-img" src="images/NYC.jpg" alt="Mars' Illustration">
+					</div>
+				</div>
 			</div>
-			<div>
-				<p>Raised in Douglas, MA, Mars (b. 2003) is an interdisciplinary artist specializing in watercolor and illustration. 
-				Her work centers around themes of animals, landscapes, and fictional characters within magical worlds. She 
-				incorporates bright colors and free-forms to create fantastic characters and spaces. Doing this allows her 
-				imagination to be integrated into each piece. Mars’ projects depict and explore spontaneity and fantasy through
-				intricacy, color, and pattern. <br><br>
-
-				The process of painting connects Mars to her subject matter, making her feel closer to wildlife. Painting them in 
-				their beauty provides a needed change of perspective from the pain creatures face in this life. To Mars it is special 
-				to bring fictional stories from my imagination into the world so she never forgets them and in turn makes them real. <br><br>
-
-				Mars’ current watercolor series, Food Transparency, is done on YUPO paper and depicts different animals within natural,
-				 floral images, representing how their mistreatment is glorified in the real world. Her process begins with cutting out 
-				 shapes in the YUPO paper that directly relate to what each painting will be about. She works to spread messages of food 
-				 transparency and its importance through depicting animals hidden within certain foods. As an illustrator Mars takes a step 
-				 away from reality and tells a specific story about a character's life. Her current illustration series, Animal Houses, depicts
-				  different species in what she imagines their homes would be. She plays with proportion and color to give the imagery a 
-				  dream-like and fictional feeling. All of her work, no matter the media, depicts the beauty and importance of our world's 
-				  flora and fauna as well as my personal connection to it. Mars currently lives in Beverly, MA, where she maintains an active
-				   studio practice and is pursuing a Bachelor of Fine Arts in Studio Art at Endicott College.<br><br></p>
-
-			</div>
-		</div>
-		<div class="flex-container">
-			<img class="resume-img" src="images/resume.png" alt="">
-			
-		</div>
+		</main>
 		
 			<!-- Aside on left side -->
 	<!-- Return to top script -->
-  	<div><button onclick="topFunction()" id="cornerBtn" title="Go to top">Return To Top</button></div>
-	</main>
-	
-	<script>
-        // When the user scrolls down 800px from the top of the document, show the button
-         window.onscroll = function() {scrollFunction()};
-     
-         function scrollFunction() {
-           if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-             document.getElementById("cornerBtn").style.display = "block";
-           } else {
-             document.getElementById("cornerBtn").style.display = "none";
-           }
-         }
-     
-         // When the user clicks on the button, scroll to the top of the document
-         function topFunction() {
-           document.body.scrollTop = 0;
-           document.documentElement.scrollTop = 0;
-         }
-     </script>
+
 
 	<script>
 		window.addEventListener('resize', function() {
@@ -164,7 +128,7 @@
 			<p>Instagram</p></a>
 		</div>
 		<div class="footer-container">
-			<p>&copy; <span id="copyright"></span> Marlee Schultheiss</p>
+			<p>&copy; <span id="copyright"></span> Mars</p>
 		</div>
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
